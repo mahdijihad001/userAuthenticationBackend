@@ -20,7 +20,9 @@ app.get("/" , (req , res) =>{
 
 ConnectDb();
 
-app.listen(port , () =>{
-    console.log("Server run success");
-    console.log(`http://localhost:${port}`);
-});
+// app.listen(port , () =>{
+//     console.log("Server run success");
+//     console.log(`http://localhost:${port}`);
+// });
+
+module.exports = app
